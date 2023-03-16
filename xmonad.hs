@@ -84,7 +84,7 @@ import XMonad.Util.SpawnOnce
       -- SolarizedDark
       -- SolarizedLight
       -- TomorrowNight
-import Colors.DoomOne
+import Colors.Dracula
 
 myFont :: String
 myFont = "xft:SauceCodePro Nerd Font Mono:regular:size=9:antialias=true:hinting=true"

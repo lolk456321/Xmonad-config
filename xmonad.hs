@@ -287,7 +287,7 @@ myKeys c =
   , ("M-S-q", addName "Quit XMonad"            $ io exitSuccess)
   , ("M-S-c", addName "Kill focused window"    $ kill1)
   , ("M-S-a", addName "Kill all windows on WS" $ killAll)
-  , ("M-S-<Return>", addName "Run prompt"      $ spawn "rofi -show-icons -combi-modes drun,run -show combi")
+  , ("M-S-<Return>", addName "Run prompt"      $ spawn "rofi -show-icons -combi-modes drun,run,ssh -show combi")
   , ("M-S-b", addName "Toggle bar show/hide"   $ sendMessage ToggleStruts)
   ]
 
